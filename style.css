@@ -1,0 +1,359 @@
+body{
+	background-color: #171717;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+img{
+	width: 70px;
+	height: 100px;
+	padding-right:10px; 
+}
+
+button{
+	border: none; 
+}
+
+button:hover{
+	color: white;
+	background: black;
+}
+
+p{
+	font-weight: bold;
+}
+
+#navbar{
+	width: 100%;
+	background-color: blue;
+	border:none;
+	display: flex;
+	justify-content:space-between;
+	color: white;
+	min-height: 80px;
+}
+
+#navbar h1{
+	margin-top: ;
+}
+
+.webname{
+	min-width: 122px;
+}
+
+.webname a:hover{
+	color:white;
+}
+
+.search{
+	height: 20px;
+	position: relative;
+	top:30px;
+	font-weight: bold;
+}
+
+.search input{
+	width: 400px;
+	border:none;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.trending{
+	color: white;
+}
+
+.ranking{
+	margin-left: 20px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	min-width: 830px; 
+}
+
+.topnine{
+	display: flex;
+	justify-content:space-between;
+}
+
+.topnine p{
+	width:190px;
+	color: white;
+}
+
+.topnine button{
+	border-radius: 2px;
+}
+
+.sthree{
+	margin-left: 150px;
+}
+
+.tthree{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.one{
+	display: flex;
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+.two{
+	display: flex;
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+.three{
+	display: flex;
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+.latest{
+	background-color: #1f1f1f;
+	border:1px solid black;
+	border-radius: 10px;
+	color: white;
+}
+
+.container{
+	display: flex;
+	justify-content:space-between;
+	font-size: 20px;
+}
+
+.rlate li{
+	list-style: none;
+}
+
+footer{
+	text-align: center;
+	color:white;
+}
+
+a:hover{
+	color:blue;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Chapters*/
+
+.info{
+	margin-left: 40px;
+	color: white;
+}
+
+.info img{
+	width: 180px;
+	height: 270px;
+}
+
+em{
+	font-weight: lighter;
+}
+
+.intro{
+	display: flex;
+}
+
+.rintro{
+	width: 800px;
+}
+
+.rintro h1{
+	margin-top: 0;
+	text-align: center;
+}
+
+.clist{
+	background-color: #1f1f1f;
+	border:1px solid black;
+	border-radius: 10px;
+	color: white;
+	text-align: left;
+}
+
+.clist ul{
+	display: flex;
+	justify-content:space-between;
+}
+
+.rlist{
+	margin-right: 300px;
+}
+
+/*categories*/
+
+.cat{
+	display: flex;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.cat img{
+	width: 100px;
+	height: 130px;
+	padding-right:10px; 
+}
+
+/*Mobile*/
+
+@media(max-width: 540px) {
+	body{
+		width: 530px;
+		position: absolute;
+		overflow-x: hidden;
+	}
+
+	#navbar{
+	width: 530px;
+	}
+
+	.search{
+	position: relative;
+	left: 20px;
+	}
+
+	.search input{
+	width: 280px;
+	}
+
+	.trending{
+	color: white;
+	width: 510px;
+	}
+
+	.ranking{
+	margin-left: 20px;
+	overflow-y: hidden;
+	max-width: 500px; 
+	}
+
+	.topnine{
+	display: flex;
+	justify-content:space-between;
+	width: 500px;
+	overflow-x: scroll;
+	}
+
+	.sthree{
+		margin-left: 139px;
+	}
+
+	.tthree{
+		margin-left: 139px;
+	}
+
+	.latest{
+	background-color: #1f1f1f;
+	border:1px solid black;
+	border-radius: 10px;
+	color: white;
+	}
+
+	.container{
+	display: flex;
+	justify-content:space-between;
+	font-size: 20px;
+	}
+
+	.rlate li{
+	list-style: none;
+	margin-right: 12px;
+	}
+
+	footer{
+	text-align: center;
+	color:white;
+	}
+
+	a:hover{
+	color:blue;
+	}
+
+	a{
+	text-decoration: none;
+	color: white;
+	}
+
+/*Info*/
+
+	.info{
+	margin-left: 18px;
+	color: white;
+	}
+
+	.info h3{
+		font-size: 27px;
+	}
+
+	.info img{
+	width: 180px;
+	height: 270px;
+	}
+
+	em{
+	font-weight: lighter;
+	}
+
+	.intro{
+		display: initial;
+		width: 500px;
+	}
+
+	.intro img{
+		width: 250px;
+		height: 350px;
+	}
+
+	.lintro{
+		text-align: center;
+	}
+
+	.rintro{
+	width: 500px;
+	}
+
+	.rintro h1{
+	margin-top: 0;
+	margin-left: 5px;
+	}
+
+	.clist{
+	background-color: #1f1f1f;
+	border:1px solid black;
+	border-radius: 10px;
+	color: white;
+	text-align: left;
+	}
+
+	.clist ul{
+	display: flex;
+	justify-content:space-between;
+	}
+
+	.rlist{
+	margin-right: 200px;
+	}
+
+/*categories*/
+
+	.cat{
+	display: flex;
+	padding-top: 20px;
+	margin-left: 20px;
+	}
+
+	.cat img{
+	width: 100px;
+	height: 130px;
+	padding-right:10px; 
+	}
+}
